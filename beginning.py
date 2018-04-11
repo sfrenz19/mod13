@@ -13,6 +13,7 @@ while x <= 5:
         if current - start < 50:
             RPL.servoWrite(1,500)
             RPL.servoWrite(0,2500)
+            
         elif current - start > 50 and current - start < 100:
             RPL.servoWrite(1,2500)
             RPL.servoWrite(0,500)
