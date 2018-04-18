@@ -4,7 +4,7 @@ z = 3
 rear = 17
 left = 1
 right = 0
-while z == 3
+while z == 3:
     while RPL.readDist(rear) > 70000:
         RPL.servoWrite(0,2500)
         RPL.servoWrite(1,1499)
