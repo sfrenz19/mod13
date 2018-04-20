@@ -6,11 +6,11 @@ left = 1
 right = 0
 while z == 3:
     while RPL.readDistance(rear) > 70000:
-        RPL.servoWrite(0,2500)
-        RPL.servoWrite(1,1499)
+        RPL.servoWrite(1,2500)
+        RPL.servoWrite(0,1499)
     while RPL.readDistance(rear) > 40000:
-        RPL.servoWrite(0,1500)
-        RPL.servoWrite(1,500)
+        RPL.servoWrite(1,1500)
+        RPL.servoWrite(0,500)
 
     if RPL.readDistance(rear) < 1000:
         RPL.servoWrite(0,0)
