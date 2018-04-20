@@ -16,7 +16,7 @@ while z == 3:
 
     if RPL.readDistance(rear) < 1000:
         RPL.servoWrite(0,10)
-        RPL.servoWrite(1,0)
+        RPL.servoWrite(1,1500)
         z = 5
 
 print "Task Complete"
