@@ -15,7 +15,7 @@ while z == 3:
         RPL.servoWrite(0,10)
 
     if RPL.readDistance(rear) < 1000:
-        RPL.servoWrite(0,10)
+        RPL.servoWrite(0,100)
         RPL.servoWrite(1,1500)
         z = 5
 
