@@ -4,6 +4,8 @@ z = 3
 rear = 17
 left = 1
 right = 0
+RPL.servoWrite(1,2500)
+RPL.servoWrite(0,1499)
 while z == 3:
     if RPL.readDistance(rear) < 1000:
         RPL.servoWrite(0,0)
